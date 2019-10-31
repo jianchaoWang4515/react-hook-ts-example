@@ -1,0 +1,41 @@
+.app-layout{
+    height: 100%;
+    min-width: 1200px;
+    .app-title{
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+        background: #ccc;
+        height: 64px;
+        line-height: 64px;
+        transition: all 0.3s;
+        &.hidden{
+            height: 0;
+            overflow: hidden;
+        }
+    }
+    .ant-layout-header{
+        padding: 0 48px 0 50px;
+        .menu-toggle{
+            font-size: 20px;
+            color: #fff;
+            position: absolute;
+            left: 24px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &_main{
+        height: 100%;
+        &-aside{
+            padding: 12px;
+            background: transparent;
+            .ant-layout-sider-children{
+                background: #fff;
+            }
+        }
+        &-content{
+            padding: 24px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.app-breadcrumb.ant-breadcrumb{
+    margin-left: 24px;
+    .ant-breadcrumb-separator{
+        color: #1890ff;
+    }
+    &>span{
+        a {
+            color: #1890ff;
+        }
+        &:not(:last-child) {
+            cursor: pointer;
+        }
+        &:last-child a{
+            color: #ccc;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+/**
+ * 常用边距样式
+ */
+
+ .padding-8,.p-8{padding:8px!important;}
+ .padding-l-8,.p-l-8{padding-left:8px!important;}
+ .padding-r-8,.p-r-8{padding-right: 8px!important;}
+ .padding-t-8,.p-t-8{padding-top: 8px!important;}
+ .padding-b-8,.p-b-8{padding-bottom: 8px!important;}
+ 
+ .padding-16,.p-16{padding: 16px!important;}
+ .padding-l-16,.p-l-16{padding-left:16px!important;}
+ .padding-r-16,.p-r-16{padding-right: 16px!important;}
+ .padding-t-16,.p-t-16{padding-top: 16px!important;}
+ .padding-b-16,.p-b-16{padding-bottom: 16px!important;}
+ 
+ .padding-24,.p-24{padding: 24px!important;}
+ .padding-l-24,.p-l-24{padding-left:24px!important;}
+ .padding-r-24,.p-r-24{padding-right: 24px!important;}
+ .padding-t-24,.p-t-24{padding-top: 24px!important;}
+ .padding-b-24,.p-b-24{padding-bottom: 24px!important;}
+ 
+ .padding-0,.p-0{padding: 0!important;}
+ .padding-l-0,.p-l-0{padding-left: 0!important;}
+ .padding-r-0,.p-r-0{padding-right: 0!important;}
+ .padding-t-0,.p-t-0{padding-top: 0!important;}
+ .padding-b-0,.p-b-0{padding-bottom: 0!important;}
+ 
+ .margin-8,.m-8{margin:8px!important;}
+ .margin-l-8,.m-l-8{margin-left:8px!important;}
+ .margin-r-8,.m-r-8{margin-right: 8px!important;}
+ .margin-t-8,.m-t-8{margin-top: 8px!important;}
+ .margin-b-8,.m-b-8{margin-bottom: 8px!important;}
+ 
+ .margin-16,.m-16{margin: 16px!important;}
+ .margin-l-16,.m-l-16{margin-left:16px!important;}
+ .margin-r-16,.m-r-16{margin-right: 16px!important;}
+ .margin-t-16,.m-t-16{margin-top: 16px!important;}
+ .margin-b-16,.m-b-16{margin-bottom: 16px!important;}
+ 
+ .margin-24,.m-24{margin: 24px!important;}
+ .margin-l-24,.m-l-24{margin-left:24px!important;}
+ .margin-r-24,.m-r-24{margin-right: 24px!important;}
+ .margin-t-24,.m-t-24{margin-top: 24px!important;}
+ .margin-b-24,.m-b-24{margin-bottom: 24px!important;}
+ 
+ .margin-0,.m-0{margin: 0!important;}
+ .margin-l-0,.m-l-0{margin-left: 0!important;}
+ .margin-r-0,.m-r-0{margin-right: 0!important;}
+ .margin-t-0,.m-t-0{margin-top: 0!important;}
+ .margin-b-0,.m-b-0{margin-bottom: 0!important;}

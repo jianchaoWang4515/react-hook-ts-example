@@ -1,0 +1,22 @@
+import { ITableState } from './type';
+export function tableReducer(state: ITableState, action: any) {
+    switch (action.type) {
+        case 'fetch':
+          return {
+              ...state,
+              loading: true
+          }
+        case 'success':
+            return {
+                data: action.data,
+                loading: false
+            }
+        case 'error':
+                return {
+                    data: [],
+                    loading: false
+                }
+        default:
+          return state;
+      }
+}

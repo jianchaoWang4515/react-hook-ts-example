@@ -1,0 +1,42 @@
+#root{
+    height: 100%;
+}
+.app-page{
+    background: #fff;
+    padding: 12px;
+    min-height: 100%;
+}
+.clear-box::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cursor-p{
+    cursor: pointer;
+}
+.word-wrap{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.app-antd-spin.ant-spin-spinning {
+    background: rgba(250,250,250,.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: block;
+    .ant-spin-dot{
+        position: absolute;
+        top: 50%;
+    }
+}
+.app-ellipsis {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}

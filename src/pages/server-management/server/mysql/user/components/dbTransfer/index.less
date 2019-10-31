@@ -1,0 +1,111 @@
+.db-transfer{
+    width: 100%;
+    height: 100%;
+    &-list{
+        display: inline-block;
+        width: 48%;
+        height: 250px;
+        border: solid 1px #d9d9d9;
+        position: relative;
+        padding-top: 40px;
+        border-radius: 4px 4px 0 0;
+        box-sizing: border-box;
+        vertical-align:middle;
+        &-header{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 8px 12px 9px;
+            height: 40px;
+            overflow: hidden;
+            color: rgba(0,0,0,0.65);
+            background: #fff;
+            border-bottom: 1px solid #e8e8e8;
+            box-sizing: border-box;
+        }
+        &-body{
+            height: 100%;
+            overflow: auto;
+            &-checked{
+                .ant-card{
+                    margin: 8px;
+                    &-head{
+                        padding: 0 4px;
+                        line-height: 20px;
+                        height: 20px;
+                        min-height: auto;
+                        & > .ant-card-head-wrapper {
+                            & > .ant-card-head-title {
+                                padding: 0 !important;
+                            }
+                            .ant-card-extra{
+                                padding: 0;
+                                margin-left: 4px;
+                                cursor: pointer;
+                                &:hover{
+                                    transform: scale(1.2);
+                                }
+                            }
+                        }
+                    }
+                    &-body{
+                        padding: 0;
+                        line-height: 22px;
+                        height: 22px;
+                        .ant-radio-group {
+                            width: 100%;
+                            text-align: center;
+                            .ant-radio-wrapper{
+                                margin: 0;
+                            }
+                        }
+                    }
+                    &-extra{
+                        display: none;
+                    }
+                    &:hover{
+                        .ant-card-extra{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        &-content{
+            height: 100%;
+            overflow: auto;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            &-item{
+                padding: 0px 12px;
+                height: 40px;
+                .ant-checkbox-wrapper{
+                    width: 100%;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                &-checked{
+                    .text{
+                        display: inline-block;
+                        width: 100%;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                    .ant-radio-group{
+
+                    }
+                }
+            }
+        }
+    }
+    &-connector{
+        vertical-align:middle;
+        text-align: center;
+        display: inline-block;
+        width: 4%;
+    }
+}
